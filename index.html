@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEC Student Login</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#003366,#007BFF);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    width:380px;
+    background:#ffffff;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.logo{
+    width:110px;
+    height:110px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+h2{
+    color:#003366;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:25px;
+    font-size:14px;
+}
+
+.input-box{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.input-box:focus{
+    outline:none;
+    border-color:#007BFF;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#003366;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.footer{
+    margin-top:20px;
+    color:#777;
+    font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="login-box">
+
+<img src="1697346843915.jpeg" alt="College Logo" class="logo">
+
+<h2>APEC Student Login</h2>
+
+<p class="subtitle">
+Assignment 12 - GitHub + Formspree
+</p>
+
+<form action="https://formspree.io/f/xnjkwrlj" method="POST">
+
+<input
+type="text"
+name="Username"
+class="input-box"
+placeholder="Enter Username"
+required>
+
+<input
+type="password"
+name="Password"
+class="input-box"
+placeholder="Enter Password"
+required>
+
+<button type="submit">
+Login
+</button>
+
+</form>
+
+<div class="footer">
+© 2026 APEC Student Portal
+</div>
+
+</div>
+
+</body>
+</html>
